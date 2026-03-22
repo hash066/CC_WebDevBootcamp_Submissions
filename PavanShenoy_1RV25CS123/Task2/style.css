@@ -1,0 +1,41 @@
+.container{
+    background-color: white;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+body {
+    background-color : dimgrey;
+}
+
+#avatar {
+    border-radius: 50px;
+    width:100px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+li {
+    position: relative;
+    width: 300px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+li button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
